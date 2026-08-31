@@ -96,6 +96,8 @@ gufw \
 fonts-dejavu \
 fonts-liberation \
 fonts-noto-core \
+yaru-theme-gtk \
+yaru-theme-icon \
 bibata-cursor-theme
 
 sed -i 's/#AutoEnable=true/AutoEnable=true/' /etc/bluetooth/main.conf
