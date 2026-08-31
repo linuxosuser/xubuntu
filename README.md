@@ -14,11 +14,11 @@ chmod +x *.sh
 
 
 
-# Az Intel NUC8i5BEKPA típusú mini PC audio kernelparamétereinek beállítása a GRUB konfigurációs fájlban
+# A Dell Inspiron 3567 típusú laptop audio kernelparamétereinek beállítása a GRUB konfigurációs fájlban
 
 sudo szövegszerkesztő_neve/etc/default/grub # A "szövegszerkesztő_neve" példát helyettesítse a szövegszerkesztő valódi nevével és szerkessze a GRUB_CMDLINE_LINUX_DEFAULT sort a következőképpen:
 
-GRUB_CMDLINE_LINUX_DEFAULT="quiet splash snd_hda_intel.model=alc233-eapd snd_hda_intel.power_save=0 snd_hda_intel.power_save_controller=N"
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash snd_hda_intel.power_save=0 snd_hda_intel.power_save_controller=N radeon.si_support=0 amdgpu.si_support=1 radeon.cik_support=0 amdgpu.cik_support=1"
 
 A konfigurációs fájl mentése és kilépés a szövegszerkesztőből # Minden szövegszerkesztőnél más billentyűkombinációval kell menteni a konfigurációs fájlt és kilépni a szövegszerkesztőből.
 
@@ -26,7 +26,7 @@ sudo update-grub
 
 sudo reboot
 
-# Az Intel NUC8i5BEKPA típusú mini PC audio beállításainak ellenőrzése
+# A Dell Inspiron 3567 típusú laptop audio beállításainak ellenőrzése
 
 cat /sys/module/snd_hda_intel/parameters/power_save
 
