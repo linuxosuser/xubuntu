@@ -4,6 +4,8 @@ apt update
 
 apt install -y \
 linux-headers-generic \
+gvfs* \
+bash-completion \
 pipewire-audio \
 pipewire-audio-client-libraries \
 pipewire-libcamera \
@@ -54,6 +56,7 @@ gnome-disk-utility \
 gnome-system-monitor \
 geany \
 geany-plugins \
+mc \
 evince \
 vainfo \
 moreutils \
