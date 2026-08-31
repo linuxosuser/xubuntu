@@ -6,9 +6,11 @@ sudo -i # Írja be a felhasználó jelszavát!
 
 cd ~felhasználónév/xubuntu # A "felhasználónév" példát helyettesítse a valódi felhasználónévvel!
 
-chmod +x xubuntu-programs-install.sh
+chmod +x *.sh
 
 ./xubuntu-programs-install.sh
+
+./xubuntu-apt-operations.sh
 
 
 
