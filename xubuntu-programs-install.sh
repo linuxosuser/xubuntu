@@ -32,7 +32,8 @@ qbittorrent \
 audacious \
 audacious-plugins \
 gnome-sound-recorder \
-vlc \
+smplayer \
+smplayer-themes \
 fuse3 \
 libfuse2 \
 unzip \
