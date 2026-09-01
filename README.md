@@ -8,9 +8,7 @@ cd ~felhasználónév/xubuntu # A "felhasználónév" példát helyettesítse a 
 
 chmod +x *.sh
 
-./xubuntu-programs-install.sh
-
-./xubuntu-apt-operations.sh
+./fájlnév.sh # A "fájlnév" példát helyettesítse a szkript valódi fájlnevével!
 
 
 
