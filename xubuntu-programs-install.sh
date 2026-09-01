@@ -6,11 +6,14 @@ apt install -y \
 linux-headers-generic \
 gvfs* \
 bash-completion \
+pipewire \
 pipewire-audio \
 pipewire-audio-client-libraries \
+pipewire-pulse \
 pipewire-libcamera \
 pipewire-v4l2 \
 gstreamer1.0-pipewire \
+wireplumber \
 alsa-firmware-loaders \
 alsa-tools \
 alsa-utils \
